@@ -1,0 +1,51 @@
+body
+{
+    margin: auto;
+    font: 12px/1.5 'Î¢ÈíÑÅºÚ',Tahoma,Helvetica,'SimSun',sans-serif;
+    color: #444;
+}
+
+.topBar
+{
+    background-color: #F2F2F2;
+    height: 28px;
+}
+
+.header{
+    width: 960px;
+    margin: 0 auto;
+    line-height: 27px;
+}
+
+a{
+    color: #333;
+}
+.header a{
+    text-decoration: none;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header-right{
+    float: right;
+}
+
+.test {
+    color: blue;
+    font-weight: bold;
+    /*float: right;*/
+}
+
+#head2{
+    border-bottom:0 solid #C2D5E3;
+    background:url("http://www.html5cn.org/temp/bgbg.jpg") repeat-x 0 0;
+}
+
+#head2 .head2-content{
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    height: 300px;
+}
