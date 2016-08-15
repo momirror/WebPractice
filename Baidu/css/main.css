@@ -1,0 +1,63 @@
+body
+{
+   font: 12px arial;
+    text-align: center;
+}
+
+#head
+{
+    position: relative;
+}
+
+#u1
+{
+    position: absolute;
+    right: 0;
+    margin:19px 0 5px 0;
+}
+
+.more
+{
+    background-color: #38f;
+    border:3px red;
+}
+
+.item
+{
+    margin-left: 20px;
+    color:#333;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.item.more
+{
+    display:inline-block;
+    color:white;
+    width: 60px;
+    height:24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#u1 .item:hover
+{
+    color: #00c;
+}
+
+img
+{
+    width:270px;
+    height: 129px;
+}
+
+.search-box
+{
+    display: block;
+    width: 500px;
+    height: 40px;
+    border:1px red solid;
+}
+
+
