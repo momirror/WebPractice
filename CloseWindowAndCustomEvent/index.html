@@ -17,8 +17,8 @@
 
 <script>
 
-    window.addEventListener("test",function(){
-       alert("coustom event");
+    window.addEventListener("test",function(e){
+       alert(e.detail);
     });
 
     function closeWindow(){
@@ -26,7 +26,7 @@
     }
 
     function sendEvent(){
-        var eve = new CustomEvent("test");
+        var eve = new CustomEvent("test",{detail:"I am a custom event"});
         window.dispatchEvent(eve);
     }
 
