@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<style>
+    div {
+        margin: 0 auto;
+        text-align: center;
+        width: 100px;
+        border: 1px solid green;
+        margin-top: 50px;
+    }
+</style>
+
+<script>
+
+    window.addEventListener("test",function(){
+       alert("coustom event");
+    });
+
+    function closeWindow(){
+        window.close();
+    }
+
+    function sendEvent(){
+        var eve = new CustomEvent("test");
+        window.dispatchEvent(eve);
+    }
+
+</script>
+
+<body>
+
+<div onclick="closeWindow()">Click to close window</div>
+<div onclick="sendEvent()">Custom event</div>
+
+</body>
+</html>
